@@ -8,9 +8,14 @@
     --font--phone: 2em;
 }
 
+@font-face {
+  font-family: myFont;
+  src: url(Greta-Arabic-AR-LT-Medium.ttf);
+}
+
 body{
     background-color: #f0f8ff;
-    font-family: 'Greta Arabic AR + LT Light';
+    font-family: myFont;
 }
 
 .scene1{
